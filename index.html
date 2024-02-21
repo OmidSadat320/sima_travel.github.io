@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-phone">
+    <title>Gift for my beautiful love</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope">
+            <div class="envelope1">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Friend</strong>
+                        <p>
+                            Dear Friend, enjoy you travels💑you are always dear to me.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope1 = document.querySelector('.envelope');
+        const letter = document.querySelector('.letter');
+        envelope1.addEventListener('click', () => {
+            // setInterval(function () {
+                
+            // },1500);
+
+            envelope1.classList.toggle('flap');
+                letter.classList.toggle('active');
+                // letter.style.width = '400px';
+                // letter.style.height = '400px';
+
+            
+        });
+
+    </script>
+</body>
+</html>
